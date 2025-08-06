@@ -1,5 +1,13 @@
-face_verification_env/ 
-__pycache__/ 
-*.pyc 
-.ipynb_checkpoints/ 
-*.log 
+# Ignore virtual environments
+face_verification_env/
+dcgan_env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
